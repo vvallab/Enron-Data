@@ -1,0 +1,9 @@
+1. The program requires three command line arguments a) Source Path - Enron EBS Mount Directory b) Interim Path - To hold unzipped files temporarily. c) Destination Path - For storing output Jsons
+
+2. The output is stored in json files
+
+3. Databricks xml parser is used extensively as it is easier to work with Dataframes. The corresponding jar is placed in lib folder
+
+4. It is advised to create fat jar using "sudo sbt assembly" command and then submit it in an appropriate server
+
+5. As the data is fairly big with reasonable processing requirement, it is advised to submit the jar in a minimum 4 Node cluster

@@ -1,0 +1,10 @@
+animalPath,feedPath,weightsPath,startDataPath,farmPath,imagesPath,targetPath
+
+val animalPath = args(0);
+val feedPath = args(1);
+val weightsPath = args(2);
+val stPath = args(3);
+val targetPath = args(4);
+val farmPath = args(5);
+val targetPath1 = args(7);
+val imPath = args(6);
